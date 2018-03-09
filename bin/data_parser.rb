@@ -57,21 +57,21 @@ class DataParser
     # sorted by custom order to paste on spreadsheet
     %{#{date}\t
       #{parsed_data["Chaos Orb"]}\t
-      #{parsed_data["Cartographer's Chisel"]}\t
-      #{parsed_data["Orb of Alchemy"]}\t
       #{parsed_data["Orb of Fusing"]}\t
-      #{parsed_data["Jeweller's Orb"]}\t
-      #{parsed_data["Chromatic Orb"]}\t
+      #{parsed_data["Orb of Alchemy"]}\t
+      #{parsed_data["Exalted Orb"]}\t
+      #{parsed_data["Divine Orb"]}\t
+      #{parsed_data["Orb of Annulment"]}\t
       #{parsed_data["Regal Orb"]}\t
       #{parsed_data["Vaal Orb"]}\t
-      #{parsed_data["Orb of Scouring"]}\t
-      #{parsed_data["Blessed Orb"]}\t
-      #{parsed_data["Exalted Orb"]}\t
-      #{parsed_data["Orb of Annulment"]}\t
-      #{parsed_data["Divine Orb"]}\t
+      #{parsed_data["Cartographer's Chisel"]}\t
       #{parsed_data["Apprentice Cartographer's Sextant"]}\t
       #{parsed_data["Journeyman Cartographer's Sextant"]}\t
-      #{parsed_data["Master Cartographer's Sextant"]}
+      #{parsed_data["Master Cartographer's Sextant"]}\t
+      #{parsed_data["Blessed Orb"]}\t
+      #{parsed_data["Orb of Scouring"]}\t
+      #{parsed_data["Chromatic Orb"]}\t
+      #{parsed_data["Jeweller's Orb"]}
     }.delete("\n")
   end
 end
