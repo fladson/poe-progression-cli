@@ -52,7 +52,7 @@ class DataParser
   end
 
   def formatted_output(parsed_data)
-    date = Date.today.strftime('%d-%m-%y')
+    date = DateTime.now.strftime('%d/%m/%y %I:%M %p')
 
     # sorted by custom order to paste on spreadsheet
     %{#{date}\t
