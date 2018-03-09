@@ -43,7 +43,7 @@ class DataParser
   ].freeze
 
   def parse_data
-    output = {}
+    output = Hash.new { |hash, key| hash[key] = 0 }
     @data['items'].each do |item|
       output[item['typeLine']] = item['stackSize'] unless LOW_TIER_ITEMS.include?(item['typeLine'])
     end
